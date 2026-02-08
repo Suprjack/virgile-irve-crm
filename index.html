@@ -366,7 +366,7 @@
 
         function populateFilters() {
             const sectors = [...new Set(leadsData.map(l => l.sector || l.industry).filter(Boolean))];
-            const selectorSelect = document.getElementById('sectorFilter');
+            const sectorSelect = document.getElementById('sectorFilter');
             
             sectors.forEach(sector => {
                 const option = document.createElement('option');
