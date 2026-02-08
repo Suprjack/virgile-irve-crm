@@ -1,0 +1,497 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IRVE Leads CRM - Virgile Papa</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 16px;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+            overflow: hidden;
+        }
+
+        header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 30px 40px;
+        }
+
+        header h1 {
+            font-size: 32px;
+            margin-bottom: 10px;
+        }
+
+        header p {
+            opacity: 0.9;
+            font-size: 16px;
+        }
+
+        .stats {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+            padding: 30px 40px;
+            background: #f8f9fa;
+            border-bottom: 1px solid #e0e0e0;
+        }
+
+        .stat-card {
+            background: white;
+            padding: 20px;
+            border-radius: 12px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+        }
+
+        .stat-card h3 {
+            font-size: 14px;
+            color: #666;
+            margin-bottom: 8px;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        .stat-card .number {
+            font-size: 36px;
+            font-weight: bold;
+            color: #667eea;
+        }
+
+        .filters {
+            padding: 20px 40px;
+            background: white;
+            border-bottom: 1px solid #e0e0e0;
+            display: flex;
+            gap: 15px;
+            flex-wrap: wrap;
+            align-items: center;
+        }
+
+        .filter-group {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .filter-group label {
+            font-weight: 600;
+            color: #333;
+            font-size: 14px;
+        }
+
+        select, input {
+            padding: 8px 12px;
+            border: 2px solid #e0e0e0;
+            border-radius: 8px;
+            font-size: 14px;
+            outline: none;
+            transition: border 0.2s;
+        }
+
+        select:focus, input:focus {
+            border-color: #667eea;
+        }
+
+        .leads-grid {
+            padding: 40px;
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+            gap: 20px;
+        }
+
+        .lead-card {
+            background: white;
+            border: 2px solid #e0e0e0;
+            border-radius: 12px;
+            padding: 24px;
+            transition: all 0.3s;
+            cursor: pointer;
+        }
+
+        .lead-card:hover {
+            border-color: #667eea;
+            box-shadow: 0 8px 24px rgba(102, 126, 234, 0.2);
+            transform: translateY(-4px);
+        }
+
+        .lead-header {
+            margin-bottom: 16px;
+            padding-bottom: 16px;
+            border-bottom: 1px solid #f0f0f0;
+        }
+
+        .lead-name {
+            font-size: 20px;
+            font-weight: bold;
+            color: #333;
+            margin-bottom: 4px;
+        }
+
+        .lead-sector {
+            font-size: 13px;
+            color: #666;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        .lead-info {
+            margin-bottom: 12px;
+        }
+
+        .info-row {
+            display: flex;
+            align-items: flex-start;
+            gap: 8px;
+            margin-bottom: 8px;
+            font-size: 14px;
+        }
+
+        .info-icon {
+            width: 18px;
+            height: 18px;
+            flex-shrink: 0;
+            margin-top: 2px;
+        }
+
+        .info-text {
+            color: #555;
+            word-break: break-all;
+        }
+
+        .info-text a {
+            color: #667eea;
+            text-decoration: none;
+        }
+
+        .info-text a:hover {
+            text-decoration: underline;
+        }
+
+        .lead-tags {
+            display: flex;
+            gap: 8px;
+            flex-wrap: wrap;
+            margin-top: 12px;
+        }
+
+        .tag {
+            padding: 4px 12px;
+            border-radius: 20px;
+            font-size: 12px;
+            font-weight: 600;
+        }
+
+        .tag-quality {
+            background: #d4edda;
+            color: #155724;
+        }
+
+        .tag-size {
+            background: #cce5ff;
+            color: #004085;
+        }
+
+        .tag-location {
+            background: #fff3cd;
+            color: #856404;
+        }
+
+        .lead-contacts {
+            margin-top: 16px;
+            padding-top: 16px;
+            border-top: 1px solid #f0f0f0;
+        }
+
+        .contacts-title {
+            font-size: 13px;
+            font-weight: 600;
+            color: #666;
+            margin-bottom: 8px;
+        }
+
+        .contact-person {
+            font-size: 13px;
+            color: #555;
+            margin-bottom: 4px;
+        }
+
+        .empty-state {
+            text-align: center;
+            padding: 60px 20px;
+            color: #666;
+        }
+
+        .empty-state-icon {
+            font-size: 64px;
+            margin-bottom: 20px;
+            opacity: 0.3;
+        }
+
+        @media (max-width: 768px) {
+            .leads-grid {
+                grid-template-columns: 1fr;
+                padding: 20px;
+            }
+
+            header {
+                padding: 20px;
+            }
+
+            header h1 {
+                font-size: 24px;
+            }
+
+            .stats {
+                padding: 20px;
+            }
+
+            .filters {
+                padding: 15px 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>🔌 IRVE Leads CRM</h1>
+            <p>Infrastructure de Recharge pour Véhicules Électriques - Générée par OpusLibre</p>
+        </header>
+
+        <div class="stats" id="stats">
+            <div class="stat-card">
+                <h3>Total Leads</h3>
+                <div class="number" id="totalLeads">0</div>
+            </div>
+            <div class="stat-card">
+                <h3>Haute Qualité</h3>
+                <div class="number" id="highQuality">0</div>
+            </div>
+            <div class="stat-card">
+                <h3>Emails Identifiés</h3>
+                <div class="number" id="totalEmails">0</div>
+            </div>
+            <div class="stat-card">
+                <h3>Contacts</h3>
+                <div class="number" id="totalContacts">0</div>
+            </div>
+        </div>
+
+        <div class="filters">
+            <div class="filter-group">
+                <label>Recherche:</label>
+                <input type="text" id="searchInput" placeholder="Nom, ville, secteur..." style="width: 250px;">
+            </div>
+            <div class="filter-group">
+                <label>Secteur:</label>
+                <select id="sectorFilter">
+                    <option value="">Tous</option>
+                </select>
+            </div>
+            <div class="filter-group">
+                <label>Qualité:</label>
+                <select id="qualityFilter">
+                    <option value="">Toutes</option>
+                    <option value="high">Haute qualité</option>
+                    <option value="medium">Qualité moyenne</option>
+                    <option value="low">Qualité basique</option>
+                </select>
+            </div>
+        </div>
+
+        <div class="leads-grid" id="leadsGrid">
+            <div class="empty-state">
+                <div class="empty-state-icon">⏳</div>
+                <p>Chargement des leads...</p>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        let leadsData = [];
+        let filteredLeads = [];
+
+        // Load data
+        async function loadData() {
+            try {
+                // Try to load the enriched leads
+                const response = await fetch('data/track3-linkedin.json');
+                const data = await response.json();
+                
+                leadsData = data.companies || data.leads || data;
+                filteredLeads = leadsData;
+                
+                renderStats();
+                populateFilters();
+                renderLeads();
+            } catch (error) {
+                console.error('Error loading data:', error);
+                document.getElementById('leadsGrid').innerHTML = `
+                    <div class="empty-state">
+                        <div class="empty-state-icon">❌</div>
+                        <p>Erreur de chargement des données</p>
+                        <p style="font-size: 14px; margin-top: 10px;">Assurez-vous que le fichier data/track3-linkedin.json existe</p>
+                    </div>
+                `;
+            }
+        }
+
+        function renderStats() {
+            const total = leadsData.length;
+            const highQuality = leadsData.filter(l => l.quality === 'high' || l.employees > 100).length;
+            const totalEmails = leadsData.reduce((sum, l) => sum + (l.emails?.length || 0), 0);
+            const totalContacts = leadsData.reduce((sum, l) => sum + (l.leadership?.length || 0), 0);
+
+            document.getElementById('totalLeads').textContent = total;
+            document.getElementById('highQuality').textContent = highQuality;
+            document.getElementById('totalEmails').textContent = totalEmails;
+            document.getElementById('totalContacts').textContent = totalContacts;
+        }
+
+        function populateFilters() {
+            const sectors = [...new Set(leadsData.map(l => l.sector || l.industry).filter(Boolean))];
+            const selectorSelect = document.getElementById('sectorFilter');
+            
+            sectors.forEach(sector => {
+                const option = document.createElement('option');
+                option.value = sector;
+                option.textContent = sector;
+                sectorSelect.appendChild(option);
+            });
+        }
+
+        function renderLeads() {
+            const grid = document.getElementById('leadsGrid');
+            
+            if (filteredLeads.length === 0) {
+                grid.innerHTML = `
+                    <div class="empty-state">
+                        <div class="empty-state-icon">🔍</div>
+                        <p>Aucun lead trouvé avec ces filtres</p>
+                    </div>
+                `;
+                return;
+            }
+
+            grid.innerHTML = filteredLeads.map(lead => `
+                <div class="lead-card">
+                    <div class="lead-header">
+                        <div class="lead-name">${lead.name || 'N/A'}</div>
+                        <div class="lead-sector">${lead.sector || lead.industry || 'Secteur inconnu'}</div>
+                    </div>
+                    
+                    <div class="lead-info">
+                        ${lead.location || lead.city ? `
+                            <div class="info-row">
+                                <span class="info-icon">📍</span>
+                                <span class="info-text">${lead.location || lead.city}</span>
+                            </div>
+                        ` : ''}
+                        
+                        ${lead.employees ? `
+                            <div class="info-row">
+                                <span class="info-icon">👥</span>
+                                <span class="info-text">${lead.employees} employés</span>
+                            </div>
+                        ` : ''}
+                        
+                        ${lead.website ? `
+                            <div class="info-row">
+                                <span class="info-icon">🌐</span>
+                                <span class="info-text"><a href="${lead.website}" target="_blank">${lead.website}</a></span>
+                            </div>
+                        ` : ''}
+                        
+                        ${lead.linkedin ? `
+                            <div class="info-row">
+                                <span class="info-icon">💼</span>
+                                <span class="info-text"><a href="${lead.linkedin}" target="_blank">LinkedIn</a></span>
+                            </div>
+                        ` : ''}
+                        
+                        ${lead.phone ? `
+                            <div class="info-row">
+                                <span class="info-icon">📞</span>
+                                <span class="info-text">${lead.phone}</span>
+                            </div>
+                        ` : ''}
+                        
+                        ${lead.primaryEmail || lead.email ? `
+                            <div class="info-row">
+                                <span class="info-icon">📧</span>
+                                <span class="info-text"><a href="mailto:${lead.primaryEmail || lead.email}">${lead.primaryEmail || lead.email}</a></span>
+                            </div>
+                        ` : ''}
+                    </div>
+                    
+                    <div class="lead-tags">
+                        ${lead.quality ? `<span class="tag tag-quality">${lead.quality === 'high' ? '⭐⭐⭐' : lead.quality === 'medium' ? '⭐⭐' : '⭐'}</span>` : ''}
+                        ${lead.employees ? `<span class="tag tag-size">${lead.employees < 50 ? 'TPE' : lead.employees < 250 ? 'PME' : 'Grande entreprise'}</span>` : ''}
+                        ${lead.location || lead.city ? `<span class="tag tag-location">${(lead.location || lead.city).split(',')[0]}</span>` : ''}
+                    </div>
+                    
+                    ${lead.leadership && lead.leadership.length > 0 ? `
+                        <div class="lead-contacts">
+                            <div class="contacts-title">👤 Contacts clés</div>
+                            ${lead.leadership.slice(0, 3).map(person => `
+                                <div class="contact-person">• ${person.name}${person.role ? ` (${person.role})` : ''}</div>
+                            `).join('')}
+                            ${lead.leadership.length > 3 ? `<div class="contact-person">• +${lead.leadership.length - 3} autres</div>` : ''}
+                        </div>
+                    ` : ''}
+                </div>
+            `).join('');
+        }
+
+        function applyFilters() {
+            const search = document.getElementById('searchInput').value.toLowerCase();
+            const sector = document.getElementById('sectorFilter').value;
+            const quality = document.getElementById('qualityFilter').value;
+
+            filteredLeads = leadsData.filter(lead => {
+                const matchesSearch = !search || 
+                    (lead.name || '').toLowerCase().includes(search) ||
+                    (lead.city || '').toLowerCase().includes(search) ||
+                    (lead.location || '').toLowerCase().includes(search) ||
+                    (lead.sector || '').toLowerCase().includes(search);
+
+                const matchesSector = !sector || 
+                    (lead.sector === sector || lead.industry === sector);
+
+                let matchesQuality = true;
+                if (quality === 'high') matchesQuality = lead.quality === 'high' || lead.employees > 100;
+                else if (quality === 'medium') matchesQuality = lead.quality === 'medium' || (lead.employees >= 50 && lead.employees <= 100);
+                else if (quality === 'low') matchesQuality = lead.quality === 'low' || lead.employees < 50;
+
+                return matchesSearch && matchesSector && matchesQuality;
+            });
+
+            renderLeads();
+        }
+
+        // Event listeners
+        document.getElementById('searchInput').addEventListener('input', applyFilters);
+        document.getElementById('sectorFilter').addEventListener('change', applyFilters);
+        document.getElementById('qualityFilter').addEventListener('change', applyFilters);
+
+        // Load data on page load
+        loadData();
+    </script>
+</body>
+</html>
