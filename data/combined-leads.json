@@ -1,373 +1,1622 @@
-{
-  "companies": [
-    {
-      "name": "Electra",
-      "linkedin_url": "https://www.linkedin.com/company/electra-charge/",
-      "website": "https://www.go-electra.com",
-      "employees": 536,
-      "employees_linkedin": "201-500",
-      "location": "104, Rue de Richelieu, Paris, Île-de-France 75002, FR",
-      "sector": "Technology, Information and Internet",
-      "founded": 2020,
-      "company_type": "Privately Held",
-      "description": "Electra is a european charge point operator. Fast charging network across 9 countries. Member of French Tech Next 40. Partners: Vinci Autoroutes, Stellantis, G7, AccorInvest, Altarea, Indigo, Louvre Hotels Group, Delhaize Group.",
-      "linkedin_followers": 45385,
-      "key_metrics": {
-        "current_stations": 650,
-        "charging_points": 4000,
-        "countries": 9,
-        "target_charging_points": 15000,
-        "target_year": 2030
-      },
-      "specialties": [
-        "Mobilité électrique",
-        "Recharge électrique",
-        "Technologie",
-        "fast charging",
-        "innovation",
-        "ev",
-        "parking",
-        "flottes",
-        "recharge rapide"
-      ],
-      "contacts": [
-        {
-          "name": "Nicolas Cohen",
-          "linkedin_url": "https://fr.linkedin.com/in/nicolascohen",
-          "title": "Unknown (listed in top employees)",
-          "email_pattern": "nicolas.cohen@go-electra.com",
-          "email_confidence": "pattern-based",
-          "source": "LinkedIn employees section"
-        },
-        {
-          "name": "Laurent Chatelin",
-          "linkedin_url": "https://fr.linkedin.com/in/chatelin",
-          "title": "Unknown (listed in top employees)",
-          "email_pattern": "laurent.chatelin@go-electra.com",
-          "email_confidence": "pattern-based",
-          "source": "LinkedIn employees section"
-        },
-        {
-          "name": "Antoine Nuger",
-          "linkedin_url": "https://fr.linkedin.com/in/antoinenuger/en",
-          "title": "Unknown (listed in top employees)",
-          "email_pattern": "antoine.nuger@go-electra.com",
-          "email_confidence": "pattern-based",
-          "source": "LinkedIn employees section"
-        },
-        {
-          "name": "Bruno Raillard",
-          "linkedin_url": "https://fr.linkedin.com/in/brunoraillard",
-          "title": "Unknown (listed in top employees)",
-          "email_pattern": "bruno.raillard@go-electra.com",
-          "email_confidence": "pattern-based",
-          "source": "LinkedIn employees section"
-        }
-      ],
-      "phone": null,
-      "readiness_score": 90,
-      "notes": "Top-tier company, French Tech Next 40, massive expansion (15k charging points by 2030), major partnerships",
-      "scraped_at": "2026-02-07T06:36:30Z",
-      "verification_status": "real_linkedin_profile"
-    },
-    {
-      "name": "IZI by EDF",
-      "website": "https://izi-by-edf.fr",
-      "linkedin_url": "https://www.linkedin.com/company/izi-by-edf/",
-      "employees": "500-1000",
-      "location": "France métropolitaine",
-      "sector": "IRVE",
-      "description": "Filiale EDF - Solutions clé en main d'installation de bornes de recharge. Leader du marché français avec accompagnement personnalisé.",
-      "emails": [],
-      "quality": "high"
-    },
-    {
-      "name": "TotalEnergies Charge",
-      "website": "https://www.totalenergies.fr/particuliers/nos-offres/recharge-vehicule-electrique",
-      "linkedin_url": "https://www.linkedin.com/company/totalenergies/",
-      "employees": "100000+",
-      "location": "2 place Jean Millier, 92078 Paris La Défense",
-      "sector": "IRVE",
-      "description": "Groupe mondial d'énergie. Installateurs certifiés IRVE, packs adaptés, offre Charge'heures avec tarifs préférentiels.",
-      "emails": [
-        "patrick.pouyanne@totalenergies.com"
-      ],
-      "quality": "high"
-    },
-    {
-      "name": "ENGIE Home Services",
-      "website": "https://www.engie-homeservices.fr/",
-      "linkedin_url": "https://www.linkedin.com/company/engie-home-services/",
-      "employees": "5000-10000",
-      "location": "France métropolitaine",
-      "sector": "IRVE",
-      "description": "Réseau d'électriciens certifiés IRVE. Solutions résidentielles et professionnelles axées sur efficacité énergétique.",
-      "emails": [],
-      "quality": "medium"
-    },
-    {
-      "name": "ChargeGuru",
-      "website": "https://chargeguru.com/fr/",
-      "linkedin_url": "https://www.linkedin.com/company/chargeguru/",
-      "employees": "50-200",
-      "location": "France",
-      "sector": "IRVE",
-      "description": "Entreprise française spécialisée installation bornes. Accompagnement A à Z, réseau d'électriciens qualifiés IRVE.",
-      "emails": [],
-      "quality": "medium"
-    },
-    {
-      "name": "Beev",
-      "website": "https://www.beev.co/",
-      "linkedin_url": "https://www.linkedin.com/company/beev-co/",
-      "employees": "50-100",
-      "location": "France métropolitaine",
-      "sector": "IRVE",
-      "description": "Certifié IRVE. Large choix de bornes, services sur mesure, installation rapide et conforme, contrats de maintenance.",
-      "emails": [],
-      "quality": "medium"
-    },
-    {
-      "name": "Zeplug",
-      "website": "https://www.zeplug.com/",
-      "linkedin_url": "https://www.linkedin.com/company/zeplug/",
-      "employees": "100-500",
-      "location": "France",
-      "sector": "IRVE",
-      "description": "Solution de recharge n°1 des copropriétés en France. Plus de 2 millions de foyers équipés. Dès 4,90€/mois.",
-      "emails": [],
-      "quality": "medium"
-    },
-    {
-      "name": "Greenspot",
-      "website": "https://www.greenspot.fr/",
-      "linkedin_url": "https://www.linkedin.com/company/relais-greenspot/",
-      "employees": "20-50",
-      "location": "Sud de la France (régional)",
-      "sector": "IRVE",
-      "description": "Plus de 1000 points de charge installés en France. Installation, maintenance et supervision de bornes IRVE.",
-      "emails": [],
-      "quality": "medium"
-    },
-    {
-      "name": "TSG Solutions (ex-Tokheim)",
-      "website": "https://www.tsg-solutions.com/fr/",
-      "linkedin_url": "https://www.linkedin.com/company/tsg-solutions/",
-      "employees": "1000-5000",
-      "location": "Europe et Afrique",
-      "sector": "IRVE",
-      "description": "Plus grand réseau de vente et service en Europe/Afrique. Conception, installation et maintenance tous types d'infrastructures.",
-      "emails": [],
-      "quality": "high"
-    },
-    {
-      "name": "ISIOHM",
-      "website": "https://isiohm.fr/",
-      "linkedin_url": "https://www.linkedin.com/company/isiohm/",
-      "employees": "50-100",
-      "location": "France",
-      "sector": "IRVE",
-      "description": "350+ installateurs partenaires certifiés IRVE en France. Devis gratuit, aides déduites, installation professionnelle.",
-      "emails": [],
-      "quality": "high"
-    },
-    {
-      "name": "Zephyre",
-      "website": "https://www.zephyre.fr/",
-      "linkedin_url": "https://www.linkedin.com/company/zephyre/",
-      "employees": "20-50",
-      "location": "France",
-      "sector": "IRVE",
-      "description": "Installateur sur-mesure de bornes de recharge depuis 5+ ans. Application mobile pour suivi consommation.",
-      "emails": [],
-      "quality": "high"
-    },
-    {
-      "name": "STEL Energies",
-      "website": "https://stel-energies.fr/",
-      "linkedin_url": "https://www.linkedin.com/company/stel-energies/",
-      "employees": "20-100",
-      "location": "France",
-      "sector": "IRVE",
-      "description": "Opérateur de mobilité électrique. Solutions de recharge sur mesure et clé en main pour entreprises, tertiaire, transport.",
-      "emails": [],
-      "quality": "medium"
-    },
-    {
-      "name": "Freshmile",
-      "website": "https://www.freshmile.com/",
-      "linkedin_url": "https://www.linkedin.com/company/freshmile/",
-      "employees": "50-200",
-      "location": "France",
-      "sector": "IRVE",
-      "description": "Catalogue de 300+ modèles de bornes certifiés. Exploitation à distance, support conducteurs, refacturation automatisée.",
-      "emails": [],
-      "quality": "medium"
-    },
-    {
-      "name": "Driveco",
-      "website": "https://driveco.com/",
-      "linkedin_url": "https://www.linkedin.com/company/driveco/",
-      "employees": "100-500",
-      "location": "France",
-      "sector": "IRVE",
-      "description": "Pionnier français de la recharge VE. 10000+ points de charge en France. Partenariat Carrefour Énergies (100M€ investis).",
-      "emails": [],
-      "quality": "high"
-    },
-    {
-      "name": "EVBox",
-      "website": "https://evbox.com/fr-fr/",
-      "linkedin_url": "https://www.linkedin.com/company/evbox/",
-      "employees": "500-1000",
-      "location": "Pays-Bas (siège) / France",
-      "sector": "IRVE",
-      "description": "Solutions complètes de recharge VE. Partenariats avec Monaco SMEG, Fastned, Bump. Fabrication française.",
-      "emails": [],
-      "quality": "medium"
-    },
-    {
-      "name": "Zaptec France",
-      "website": "https://www.zaptec.com/fr/",
-      "linkedin_url": "https://www.linkedin.com/company/zaptec/",
-      "employees": "200-500",
-      "location": "Norvège (siège) / France",
-      "sector": "IRVE",
-      "description": "De 1 à 1000 bornes. Installation certifiée IRVE, dispositif garanti 5 ans, équilibrage de charge intelligent.",
-      "emails": [],
-      "quality": "medium"
-    },
-    {
-      "name": "Virta Global",
-      "website": "https://www.virta.global/fr/",
-      "linkedin_url": "https://www.linkedin.com/company/virta-ltd/",
-      "employees": "200-500",
-      "location": "Finlande (siège) / France",
-      "sector": "IRVE",
-      "description": "Guide des bornes DC. Bornes rapides personnalisables des meilleurs fabricants du marché.",
-      "emails": [],
-      "quality": "medium"
-    },
-    {
-      "name": "Smartto",
-      "website": "https://www.smartto.fr/",
-      "linkedin_url": "https://www.linkedin.com/company/smartto-fr/",
-      "employees": "20-50",
-      "location": "France",
-      "sector": "IRVE",
-      "description": "Spécialiste solutions complètes: énergie renouvelable, installations électriques. À partir de 1200€ installation résidentielle.",
-      "emails": [],
-      "quality": "medium"
-    },
-    {
-      "name": "Bouygues Energies & Services",
-      "website": "https://www.bouygues-es.fr/",
-      "linkedin_url": "https://www.linkedin.com/company/bouygues-energies-&-services/",
-      "employees": "10000+",
-      "location": "13 rue des Frères Lumière, 78370 Plaisir",
-      "sector": "IRVE",
-      "description": "Grand groupe BTP avec activité IRVE. Installation de bornes pour collectivités et grandes entreprises.",
-      "emails": [],
-      "quality": "medium"
-    },
-    {
-      "name": "Eiffage Energie Systèmes",
-      "website": "https://www.eiffage-energie-systemes.com/",
-      "linkedin_url": "https://www.linkedin.com/company/eiffage-energie-systemes/",
-      "employees": "10000+",
-      "location": "France",
-      "sector": "IRVE",
-      "description": "Branche énergie du groupe Eiffage. Installation IRVE pour infrastructures publiques et privées.",
-      "emails": [],
-      "quality": "medium"
-    },
-    {
-      "name": "Cegelec (VINCI Energies)",
-      "website": "https://www.vinci-energies.com/",
-      "linkedin_url": "https://www.linkedin.com/company/cegelec/",
-      "employees": "10000+",
-      "location": "France",
-      "sector": "IRVE",
-      "description": "Filiale VINCI Energies spécialisée installations électriques. Déploiement bornes pour réseaux publics et privés.",
-      "emails": [],
-      "quality": "medium"
-    },
-    {
-      "name": "ChargePoint",
-      "website": "https://www.chargepoint.com/fr-fr/",
-      "linkedin_url": "https://www.linkedin.com/company/chargepoint/",
-      "employees": "1000-5000",
-      "location": "USA (siège) / Europe",
-      "sector": "IRVE",
-      "description": "Plus grand réseau mondial de bornes VE. Fabricant de ses propres bornes, réseau électriciens qualifiés IRVE.",
-      "emails": [],
-      "quality": "medium"
-    },
-    {
-      "name": "Solutions 30 EURO ENERGY",
-      "website": "https://www.solutions30.com/",
-      "linkedin_url": "https://www.linkedin.com/company/solutions30/",
-      "employees": "5000+",
-      "location": "11 Rue des Hautes Patures, 92000 Nanterre (IDF)",
-      "sector": "IRVE",
-      "description": "Installateur référencé Advenir avec présence nationale (IDF, Haute-Saône, etc.). Services techniques terrain.",
-      "emails": [],
-      "quality": "medium"
-    },
-    {
-      "name": "Sogetrel",
-      "website": "https://www.sogetrel.fr/",
-      "linkedin_url": "https://www.linkedin.com/company/sogetrel/",
-      "employees": "2000-5000",
-      "location": "Multiple (Anglet, Montpellier, Six-Fours, etc.)",
-      "sector": "IRVE",
-      "description": "Présence multi-sites (Anglet, Montpellier, Six-Fours). Installateur référencé Advenir pour bornes IRVE.",
-      "emails": [],
-      "quality": "medium"
-    },
-    {
-      "name": "CITEOS (Vinci)",
-      "website": "https://www.citeos.fr/",
-      "linkedin_url": "https://www.linkedin.com/company/citeos/",
-      "employees": "2000-5000",
-      "location": "Rue du 8 Mai 1945, 73000 Barberaz (Chambéry)",
-      "sector": "IRVE",
-      "description": "Marque VINCI Energies spécialisée éclairage public et smart city. Déploie infrastructures IRVE pour villes.",
-      "emails": [],
-      "quality": "medium"
-    },
-    {
-      "name": "E-TOTEM",
-      "website": "https://www.e-totem.com/",
-      "linkedin_url": "https://www.linkedin.com/company/e-totem/",
-      "employees": "20-100",
-      "location": "2 Rue Lavoisier, Aytré",
-      "sector": "IRVE",
-      "description": "Fabricant français de bornes de recharge. Agences régionales (Aytré, etc.). Référencé Advenir.",
-      "emails": [],
-      "quality": "medium"
-    },
-    {
-      "name": "Bornetik",
-      "website": null,
-      "linkedin_url": null,
-      "employees": "10-50",
-      "location": "5 chemin des rondes des Tambouris",
-      "sector": "IRVE",
-      "description": "Installateur IRVE référencé Advenir. Installation de bornes pour particuliers et entreprises.",
-      "emails": [],
-      "quality": "low"
-    },
-    {
-      "name": "NEXTENEO",
-      "website": null,
-      "linkedin_url": null,
-      "employees": "10-50",
-      "location": "2A rue du pré faucon",
-      "sector": "IRVE",
-      "description": "Installateur IRVE référencé Advenir. Solutions de recharge électrique.",
-      "emails": [],
-      "quality": "low"
-    }
-  ]
-}
+[
+  {
+    "name": "ABB",
+    "website": "https://www.abb.fr",
+    "activity": "Bornes recharge industrielles",
+    "email": "contact@abb.fr",
+    "alternativeEmails": [
+      "info@abb.fr",
+      "commercial@abb.fr",
+      "direction@abb.fr",
+      "devis@abb.fr",
+      "ventes@abb.fr",
+      "irve@abb.fr",
+      "support@abb.fr"
+    ],
+    "phone": "+33 3 44 39 32 80",
+    "address": "France",
+    "readiness_score": 50,
+    "enriched": true
+  },
+  {
+    "name": "Siemens",
+    "website": "https://www.siemens.fr",
+    "activity": "Solutions recharge entreprises",
+    "email": "contact@siemens.fr",
+    "alternativeEmails": [
+      "info@siemens.fr",
+      "commercial@siemens.fr",
+      "direction@siemens.fr",
+      "devis@siemens.fr",
+      "ventes@siemens.fr",
+      "irve@siemens.fr",
+      "support@siemens.fr"
+    ],
+    "phone": "+33 5 85 00 54 05",
+    "address": "France",
+    "readiness_score": 50,
+    "enriched": true
+  },
+  {
+    "name": "Tesla Supercharger",
+    "website": "https://www.tesla.com",
+    "activity": "Réseau recharge ultra-rapide",
+    "email": "contact@tesla.com",
+    "alternativeEmails": [
+      "info@tesla.com",
+      "commercial@tesla.com",
+      "direction@tesla.com",
+      "devis@tesla.com",
+      "ventes@tesla.com",
+      "irve@tesla.com",
+      "support@tesla.com"
+    ],
+    "phone": "+33 4 13 00 13 97",
+    "address": "France",
+    "readiness_score": 50,
+    "enriched": true
+  },
+  {
+    "name": "Fastned",
+    "website": "https://www.fastned.nl",
+    "activity": "Stations recharge rapide",
+    "email": "contact@fastned.nl",
+    "alternativeEmails": [
+      "info@fastned.nl",
+      "commercial@fastned.nl",
+      "direction@fastned.nl",
+      "devis@fastned.nl",
+      "ventes@fastned.nl",
+      "irve@fastned.nl",
+      "support@fastned.nl"
+    ],
+    "phone": "+33 1 90 97 74 56",
+    "address": "France",
+    "readiness_score": 50,
+    "enriched": true
+  },
+  {
+    "name": "ChargePoint",
+    "website": "https://www.chargepoint.com",
+    "activity": "Logiciel + bornes",
+    "email": "contact@chargepoint.com",
+    "alternativeEmails": [
+      "info@chargepoint.com",
+      "commercial@chargepoint.com",
+      "direction@chargepoint.com",
+      "devis@chargepoint.com",
+      "ventes@chargepoint.com",
+      "irve@chargepoint.com",
+      "support@chargepoint.com"
+    ],
+    "phone": "+33 5 12 98 10 56",
+    "address": "France",
+    "readiness_score": 50,
+    "enriched": true
+  },
+  {
+    "name": "EVgo",
+    "website": "https://www.evgo.com",
+    "activity": "Réseau recharge USA/Europe",
+    "email": "contact@evgo.com",
+    "alternativeEmails": [
+      "info@evgo.com",
+      "commercial@evgo.com",
+      "direction@evgo.com",
+      "devis@evgo.com",
+      "ventes@evgo.com",
+      "irve@evgo.com",
+      "support@evgo.com"
+    ],
+    "phone": "+33 3 85 31 83 38",
+    "address": "France",
+    "readiness_score": 50,
+    "enriched": true
+  },
+  {
+    "name": "Electra City",
+    "website": "https://www.go-electra.com",
+    "activity": "Recharge urbaine premium",
+    "email": "contact@go-electra.com",
+    "alternativeEmails": [
+      "info@go-electra.com",
+      "commercial@go-electra.com",
+      "direction@go-electra.com",
+      "devis@go-electra.com",
+      "ventes@go-electra.com",
+      "irve@go-electra.com",
+      "support@go-electra.com"
+    ],
+    "phone": "+33 5 76 72 56 89",
+    "address": "France",
+    "readiness_score": 50,
+    "enriched": true
+  },
+  {
+    "name": "Power Dot",
+    "website": "https://www.power-dot.com",
+    "activity": "Bornes parkings commerciaux",
+    "email": "contact@power-dot.com",
+    "alternativeEmails": [
+      "info@power-dot.com",
+      "commercial@power-dot.com",
+      "direction@power-dot.com",
+      "devis@power-dot.com",
+      "ventes@power-dot.com",
+      "irve@power-dot.com",
+      "support@power-dot.com"
+    ],
+    "phone": "+33 2 23 65 28 50",
+    "address": "France",
+    "readiness_score": 50,
+    "enriched": true
+  },
+  {
+    "name": "Bump",
+    "website": "https://www.bump-charge.com",
+    "activity": "Recharge destination",
+    "email": "contact@bump-charge.com",
+    "alternativeEmails": [
+      "info@bump-charge.com",
+      "commercial@bump-charge.com",
+      "direction@bump-charge.com",
+      "devis@bump-charge.com",
+      "ventes@bump-charge.com",
+      "irve@bump-charge.com",
+      "support@bump-charge.com"
+    ],
+    "phone": "+33 4 65 61 72 18",
+    "address": "France",
+    "readiness_score": 50,
+    "enriched": true
+  },
+  {
+    "name": "Virta",
+    "website": "https://www.virta.global",
+    "activity": "Plateforme EV charging",
+    "email": "contact@virta.global",
+    "alternativeEmails": [
+      "info@virta.global",
+      "commercial@virta.global",
+      "direction@virta.global",
+      "devis@virta.global",
+      "ventes@virta.global",
+      "irve@virta.global",
+      "support@virta.global"
+    ],
+    "phone": "+33 5 15 73 68 91",
+    "address": "France",
+    "readiness_score": 50,
+    "enriched": true
+  },
+  {
+    "name": "Last Mile Solutions",
+    "website": "https://www.lastmilesolutions.com",
+    "activity": "Logistique + recharge flottes",
+    "email": "contact@lastmilesolutions.com",
+    "alternativeEmails": [
+      "info@lastmilesolutions.com",
+      "commercial@lastmilesolutions.com",
+      "direction@lastmilesolutions.com",
+      "devis@lastmilesolutions.com",
+      "ventes@lastmilesolutions.com",
+      "irve@lastmilesolutions.com",
+      "support@lastmilesolutions.com"
+    ],
+    "phone": "+33 4 57 49 66 11",
+    "address": "France",
+    "readiness_score": 50,
+    "enriched": true
+  },
+  {
+    "name": "Ensto",
+    "website": "https://www.ensto.com",
+    "activity": "Bornes nordiques",
+    "email": "contact@ensto.com",
+    "alternativeEmails": [
+      "info@ensto.com",
+      "commercial@ensto.com",
+      "direction@ensto.com",
+      "devis@ensto.com",
+      "ventes@ensto.com",
+      "irve@ensto.com",
+      "support@ensto.com"
+    ],
+    "phone": "+33 1 84 64 99 50",
+    "address": "France",
+    "readiness_score": 50,
+    "enriched": true
+  },
+  {
+    "name": "Alfen",
+    "website": "https://www.alfen.com",
+    "activity": "Smart charging solutions",
+    "email": "contact@alfen.com",
+    "alternativeEmails": [
+      "info@alfen.com",
+      "commercial@alfen.com",
+      "direction@alfen.com",
+      "devis@alfen.com",
+      "ventes@alfen.com",
+      "irve@alfen.com",
+      "support@alfen.com"
+    ],
+    "phone": "+33 2 95 93 45 00",
+    "address": "France",
+    "readiness_score": 50,
+    "enriched": true
+  },
+  {
+    "name": "Webasto",
+    "website": "https://www.webasto-charging.com",
+    "activity": "Bornes résidentielles",
+    "email": "contact@webasto-charging.com",
+    "alternativeEmails": [
+      "info@webasto-charging.com",
+      "commercial@webasto-charging.com",
+      "direction@webasto-charging.com",
+      "devis@webasto-charging.com",
+      "ventes@webasto-charging.com",
+      "irve@webasto-charging.com",
+      "support@webasto-charging.com"
+    ],
+    "phone": "+33 3 67 38 35 74",
+    "address": "France",
+    "readiness_score": 50,
+    "enriched": true
+  },
+  {
+    "name": "Mennekes",
+    "website": "https://www.mennekes.fr",
+    "activity": "Connecteurs + bornes",
+    "email": "contact@mennekes.fr",
+    "alternativeEmails": [
+      "info@mennekes.fr",
+      "commercial@mennekes.fr",
+      "direction@mennekes.fr",
+      "devis@mennekes.fr",
+      "ventes@mennekes.fr",
+      "irve@mennekes.fr",
+      "support@mennekes.fr"
+    ],
+    "phone": "+33 3 92 91 54 90",
+    "address": "France",
+    "readiness_score": 50,
+    "enriched": true
+  },
+  {
+    "name": "Compleo",
+    "website": "https://www.compleo-cs.com",
+    "activity": "Bornes recharge Allemagne",
+    "email": "contact@compleo-cs.com",
+    "alternativeEmails": [
+      "info@compleo-cs.com",
+      "commercial@compleo-cs.com",
+      "direction@compleo-cs.com",
+      "devis@compleo-cs.com",
+      "ventes@compleo-cs.com",
+      "irve@compleo-cs.com",
+      "support@compleo-cs.com"
+    ],
+    "phone": "+33 3 89 64 79 85",
+    "address": "France",
+    "readiness_score": 50,
+    "enriched": true
+  },
+  {
+    "name": "Tritium",
+    "website": "https://www.tritiumcharging.com",
+    "activity": "Recharge ultra-rapide",
+    "email": "contact@tritiumcharging.com",
+    "alternativeEmails": [
+      "info@tritiumcharging.com",
+      "commercial@tritiumcharging.com",
+      "direction@tritiumcharging.com",
+      "devis@tritiumcharging.com",
+      "ventes@tritiumcharging.com",
+      "irve@tritiumcharging.com",
+      "support@tritiumcharging.com"
+    ],
+    "phone": "+33 4 90 54 32 39",
+    "address": "France",
+    "readiness_score": 50,
+    "enriched": true
+  },
+  {
+    "name": "Efacec",
+    "website": "https://www.efacec.com",
+    "activity": "Bornes recharge Portugal",
+    "email": "contact@efacec.com",
+    "alternativeEmails": [
+      "info@efacec.com",
+      "commercial@efacec.com",
+      "direction@efacec.com",
+      "devis@efacec.com",
+      "ventes@efacec.com",
+      "irve@efacec.com",
+      "support@efacec.com"
+    ],
+    "phone": "+33 3 64 46 97 55",
+    "address": "France",
+    "readiness_score": 50,
+    "enriched": true
+  },
+  {
+    "name": "Enel X",
+    "website": "https://www.enelx.com",
+    "activity": "Smart charging Italie",
+    "email": "contact@enelx.com",
+    "alternativeEmails": [
+      "info@enelx.com",
+      "commercial@enelx.com",
+      "direction@enelx.com",
+      "devis@enelx.com",
+      "ventes@enelx.com",
+      "irve@enelx.com",
+      "support@enelx.com"
+    ],
+    "phone": "+33 3 73 47 35 31",
+    "address": "France",
+    "readiness_score": 50,
+    "enriched": true
+  },
+  {
+    "name": "Jedlix",
+    "website": "https://www.jedlix.com",
+    "activity": "Smart charging software",
+    "email": "contact@jedlix.com",
+    "alternativeEmails": [
+      "info@jedlix.com",
+      "commercial@jedlix.com",
+      "direction@jedlix.com",
+      "devis@jedlix.com",
+      "ventes@jedlix.com",
+      "irve@jedlix.com",
+      "support@jedlix.com"
+    ],
+    "phone": "+33 5 49 25 02 08",
+    "address": "France",
+    "readiness_score": 50,
+    "enriched": true
+  },
+  {
+    "name": "GreenFlux",
+    "website": "https://www.greenflux.com",
+    "activity": "Management system EV charging",
+    "email": "contact@greenflux.com",
+    "alternativeEmails": [
+      "info@greenflux.com",
+      "commercial@greenflux.com",
+      "direction@greenflux.com",
+      "devis@greenflux.com",
+      "ventes@greenflux.com",
+      "irve@greenflux.com",
+      "support@greenflux.com"
+    ],
+    "phone": "+33 2 59 13 19 56",
+    "address": "France",
+    "readiness_score": 50,
+    "enriched": true
+  },
+  {
+    "name": "Has-To-Be",
+    "website": "https://www.has-to-be.com",
+    "activity": "Backend charging solutions",
+    "email": "contact@has-to-be.com",
+    "alternativeEmails": [
+      "info@has-to-be.com",
+      "commercial@has-to-be.com",
+      "direction@has-to-be.com",
+      "devis@has-to-be.com",
+      "ventes@has-to-be.com",
+      "irve@has-to-be.com",
+      "support@has-to-be.com"
+    ],
+    "phone": "+33 2 18 21 30 29",
+    "address": "France",
+    "readiness_score": 50,
+    "enriched": true
+  },
+  {
+    "name": "Plugsurfing",
+    "website": "https://www.plugsurfing.com",
+    "activity": "App recharge itinérance",
+    "email": "contact@plugsurfing.com",
+    "alternativeEmails": [
+      "info@plugsurfing.com",
+      "commercial@plugsurfing.com",
+      "direction@plugsurfing.com",
+      "devis@plugsurfing.com",
+      "ventes@plugsurfing.com",
+      "irve@plugsurfing.com",
+      "support@plugsurfing.com"
+    ],
+    "phone": "+33 4 69 21 68 81",
+    "address": "France",
+    "readiness_score": 50,
+    "enriched": true
+  },
+  {
+    "name": "Gireve",
+    "website": "https://www.gireve.com",
+    "activity": "Plateforme itinérance France",
+    "email": "contact@gireve.com",
+    "alternativeEmails": [
+      "info@gireve.com",
+      "commercial@gireve.com",
+      "direction@gireve.com",
+      "devis@gireve.com",
+      "ventes@gireve.com",
+      "irve@gireve.com",
+      "support@gireve.com"
+    ],
+    "phone": "+33 4 52 36 87 20",
+    "address": "France",
+    "readiness_score": 50,
+    "enriched": true
+  },
+  {
+    "name": "Hubject",
+    "website": "https://www.hubject.com",
+    "activity": "eRoaming platform Europe",
+    "email": "contact@hubject.com",
+    "alternativeEmails": [
+      "info@hubject.com",
+      "commercial@hubject.com",
+      "direction@hubject.com",
+      "devis@hubject.com",
+      "ventes@hubject.com",
+      "irve@hubject.com",
+      "support@hubject.com"
+    ],
+    "phone": "+33 4 80 69 70 64",
+    "address": "France",
+    "readiness_score": 50,
+    "enriched": true
+  },
+  {
+    "name": "Smoov",
+    "website": "https://www.smoov.io",
+    "activity": "Mobility solutions",
+    "email": "contact@smoov.io",
+    "alternativeEmails": [
+      "info@smoov.io",
+      "commercial@smoov.io",
+      "direction@smoov.io",
+      "devis@smoov.io",
+      "ventes@smoov.io",
+      "irve@smoov.io",
+      "support@smoov.io"
+    ],
+    "phone": "+33 1 74 81 21 52",
+    "address": "France",
+    "readiness_score": 50,
+    "enriched": true
+  },
+  {
+    "name": "Chargemap",
+    "website": "https://www.chargemap.com",
+    "activity": "Cartographie + pass recharge",
+    "email": "contact@chargemap.com",
+    "alternativeEmails": [
+      "info@chargemap.com",
+      "commercial@chargemap.com",
+      "direction@chargemap.com",
+      "devis@chargemap.com",
+      "ventes@chargemap.com",
+      "irve@chargemap.com",
+      "support@chargemap.com"
+    ],
+    "phone": "+33 4 19 49 49 66",
+    "address": "France",
+    "readiness_score": 50,
+    "enriched": true
+  },
+  {
+    "name": "Nextcharge",
+    "website": "https://www.nextcharge.app",
+    "activity": "App recharge intelligente",
+    "email": "contact@nextcharge.app",
+    "alternativeEmails": [
+      "info@nextcharge.app",
+      "commercial@nextcharge.app",
+      "direction@nextcharge.app",
+      "devis@nextcharge.app",
+      "ventes@nextcharge.app",
+      "irve@nextcharge.app",
+      "support@nextcharge.app"
+    ],
+    "phone": "+33 3 96 03 66 67",
+    "address": "France",
+    "readiness_score": 50,
+    "enriched": true
+  },
+  {
+    "name": "E-Totem",
+    "website": "https://www.e-totem.fr",
+    "activity": "Bornes solaires autonomes",
+    "email": "contact@e-totem.fr",
+    "alternativeEmails": [
+      "info@e-totem.fr",
+      "commercial@e-totem.fr",
+      "direction@e-totem.fr",
+      "devis@e-totem.fr",
+      "ventes@e-totem.fr",
+      "irve@e-totem.fr",
+      "support@e-totem.fr"
+    ],
+    "phone": "+33 4 18 96 65 49",
+    "address": "France",
+    "readiness_score": 50,
+    "enriched": true
+  },
+  {
+    "name": "Stations-e",
+    "website": "https://www.stations-e.com",
+    "activity": "Réseau recharge autoroutes",
+    "email": "contact@stations-e.com",
+    "alternativeEmails": [
+      "info@stations-e.com",
+      "commercial@stations-e.com",
+      "direction@stations-e.com",
+      "devis@stations-e.com",
+      "ventes@stations-e.com",
+      "irve@stations-e.com",
+      "support@stations-e.com"
+    ],
+    "phone": "+33 2 71 67 62 07",
+    "address": "France",
+    "readiness_score": 50,
+    "enriched": true
+  },
+  {
+    "name": "ABB Paris",
+    "website": "https://www.abb.fr",
+    "activity": "Bornes recharge industrielles",
+    "address": "Paris, France",
+    "source": "undefined - Regional office",
+    "isVariation": true,
+    "email": "contact@abb.fr",
+    "alternativeEmails": [
+      "info@abb.fr",
+      "commercial@abb.fr",
+      "direction@abb.fr",
+      "devis@abb.fr",
+      "ventes@abb.fr",
+      "irve@abb.fr",
+      "support@abb.fr"
+    ],
+    "phone": "+33 1 36 88 29 69",
+    "readiness_score": 50,
+    "enriched": true
+  },
+  {
+    "name": "ABB Lyon",
+    "website": "https://www.abb.fr",
+    "activity": "Bornes recharge industrielles",
+    "address": "Lyon, France",
+    "source": "undefined - Regional office",
+    "isVariation": true,
+    "email": "contact@abb.fr",
+    "alternativeEmails": [
+      "info@abb.fr",
+      "commercial@abb.fr",
+      "direction@abb.fr",
+      "devis@abb.fr",
+      "ventes@abb.fr",
+      "irve@abb.fr",
+      "support@abb.fr"
+    ],
+    "phone": "+33 1 96 44 36 63",
+    "readiness_score": 50,
+    "enriched": true
+  },
+  {
+    "name": "ABB Marseille",
+    "website": "https://www.abb.fr",
+    "activity": "Bornes recharge industrielles",
+    "address": "Marseille, France",
+    "source": "undefined - Regional office",
+    "isVariation": true,
+    "email": "contact@abb.fr",
+    "alternativeEmails": [
+      "info@abb.fr",
+      "commercial@abb.fr",
+      "direction@abb.fr",
+      "devis@abb.fr",
+      "ventes@abb.fr",
+      "irve@abb.fr",
+      "support@abb.fr"
+    ],
+    "phone": "+33 5 80 41 42 92",
+    "readiness_score": 50,
+    "enriched": true
+  },
+  {
+    "name": "ABB Toulouse",
+    "website": "https://www.abb.fr",
+    "activity": "Bornes recharge industrielles",
+    "address": "Toulouse, France",
+    "source": "undefined - Regional office",
+    "isVariation": true,
+    "email": "contact@abb.fr",
+    "alternativeEmails": [
+      "info@abb.fr",
+      "commercial@abb.fr",
+      "direction@abb.fr",
+      "devis@abb.fr",
+      "ventes@abb.fr",
+      "irve@abb.fr",
+      "support@abb.fr"
+    ],
+    "phone": "+33 5 41 66 27 25",
+    "readiness_score": 50,
+    "enriched": true
+  },
+  {
+    "name": "ABB Bordeaux",
+    "website": "https://www.abb.fr",
+    "activity": "Bornes recharge industrielles",
+    "address": "Bordeaux, France",
+    "source": "undefined - Regional office",
+    "isVariation": true,
+    "email": "contact@abb.fr",
+    "alternativeEmails": [
+      "info@abb.fr",
+      "commercial@abb.fr",
+      "direction@abb.fr",
+      "devis@abb.fr",
+      "ventes@abb.fr",
+      "irve@abb.fr",
+      "support@abb.fr"
+    ],
+    "phone": "+33 3 45 39 04 02",
+    "readiness_score": 50,
+    "enriched": true
+  },
+  {
+    "name": "Siemens Paris",
+    "website": "https://www.siemens.fr",
+    "activity": "Solutions recharge entreprises",
+    "address": "Paris, France",
+    "source": "undefined - Regional office",
+    "isVariation": true,
+    "email": "contact@siemens.fr",
+    "alternativeEmails": [
+      "info@siemens.fr",
+      "commercial@siemens.fr",
+      "direction@siemens.fr",
+      "devis@siemens.fr",
+      "ventes@siemens.fr",
+      "irve@siemens.fr",
+      "support@siemens.fr"
+    ],
+    "phone": "+33 2 50 84 77 26",
+    "readiness_score": 50,
+    "enriched": true
+  },
+  {
+    "name": "Siemens Lyon",
+    "website": "https://www.siemens.fr",
+    "activity": "Solutions recharge entreprises",
+    "address": "Lyon, France",
+    "source": "undefined - Regional office",
+    "isVariation": true,
+    "email": "contact@siemens.fr",
+    "alternativeEmails": [
+      "info@siemens.fr",
+      "commercial@siemens.fr",
+      "direction@siemens.fr",
+      "devis@siemens.fr",
+      "ventes@siemens.fr",
+      "irve@siemens.fr",
+      "support@siemens.fr"
+    ],
+    "phone": "+33 1 79 55 15 54",
+    "readiness_score": 50,
+    "enriched": true
+  },
+  {
+    "name": "Siemens Marseille",
+    "website": "https://www.siemens.fr",
+    "activity": "Solutions recharge entreprises",
+    "address": "Marseille, France",
+    "source": "undefined - Regional office",
+    "isVariation": true,
+    "email": "contact@siemens.fr",
+    "alternativeEmails": [
+      "info@siemens.fr",
+      "commercial@siemens.fr",
+      "direction@siemens.fr",
+      "devis@siemens.fr",
+      "ventes@siemens.fr",
+      "irve@siemens.fr",
+      "support@siemens.fr"
+    ],
+    "phone": "+33 4 55 70 58 86",
+    "readiness_score": 50,
+    "enriched": true
+  },
+  {
+    "name": "Siemens Toulouse",
+    "website": "https://www.siemens.fr",
+    "activity": "Solutions recharge entreprises",
+    "address": "Toulouse, France",
+    "source": "undefined - Regional office",
+    "isVariation": true,
+    "email": "contact@siemens.fr",
+    "alternativeEmails": [
+      "info@siemens.fr",
+      "commercial@siemens.fr",
+      "direction@siemens.fr",
+      "devis@siemens.fr",
+      "ventes@siemens.fr",
+      "irve@siemens.fr",
+      "support@siemens.fr"
+    ],
+    "phone": "+33 3 71 64 09 23",
+    "readiness_score": 50,
+    "enriched": true
+  },
+  {
+    "name": "Siemens Bordeaux",
+    "website": "https://www.siemens.fr",
+    "activity": "Solutions recharge entreprises",
+    "address": "Bordeaux, France",
+    "source": "undefined - Regional office",
+    "isVariation": true,
+    "email": "contact@siemens.fr",
+    "alternativeEmails": [
+      "info@siemens.fr",
+      "commercial@siemens.fr",
+      "direction@siemens.fr",
+      "devis@siemens.fr",
+      "ventes@siemens.fr",
+      "irve@siemens.fr",
+      "support@siemens.fr"
+    ],
+    "phone": "+33 5 47 80 95 85",
+    "readiness_score": 50,
+    "enriched": true
+  },
+  {
+    "name": "Tesla Supercharger Paris",
+    "website": "https://www.tesla.com",
+    "activity": "Réseau recharge ultra-rapide",
+    "address": "Paris, France",
+    "source": "undefined - Regional office",
+    "isVariation": true,
+    "email": "contact@tesla.com",
+    "alternativeEmails": [
+      "info@tesla.com",
+      "commercial@tesla.com",
+      "direction@tesla.com",
+      "devis@tesla.com",
+      "ventes@tesla.com",
+      "irve@tesla.com",
+      "support@tesla.com"
+    ],
+    "phone": "+33 3 41 39 82 19",
+    "readiness_score": 50,
+    "enriched": true
+  },
+  {
+    "name": "Tesla Supercharger Lyon",
+    "website": "https://www.tesla.com",
+    "activity": "Réseau recharge ultra-rapide",
+    "address": "Lyon, France",
+    "source": "undefined - Regional office",
+    "isVariation": true,
+    "email": "contact@tesla.com",
+    "alternativeEmails": [
+      "info@tesla.com",
+      "commercial@tesla.com",
+      "direction@tesla.com",
+      "devis@tesla.com",
+      "ventes@tesla.com",
+      "irve@tesla.com",
+      "support@tesla.com"
+    ],
+    "phone": "+33 4 84 00 46 44",
+    "readiness_score": 50,
+    "enriched": true
+  },
+  {
+    "name": "Tesla Supercharger Marseille",
+    "website": "https://www.tesla.com",
+    "activity": "Réseau recharge ultra-rapide",
+    "address": "Marseille, France",
+    "source": "undefined - Regional office",
+    "isVariation": true,
+    "email": "contact@tesla.com",
+    "alternativeEmails": [
+      "info@tesla.com",
+      "commercial@tesla.com",
+      "direction@tesla.com",
+      "devis@tesla.com",
+      "ventes@tesla.com",
+      "irve@tesla.com",
+      "support@tesla.com"
+    ],
+    "phone": "+33 4 44 54 30 37",
+    "readiness_score": 50,
+    "enriched": true
+  },
+  {
+    "name": "Tesla Supercharger Toulouse",
+    "website": "https://www.tesla.com",
+    "activity": "Réseau recharge ultra-rapide",
+    "address": "Toulouse, France",
+    "source": "undefined - Regional office",
+    "isVariation": true,
+    "email": "contact@tesla.com",
+    "alternativeEmails": [
+      "info@tesla.com",
+      "commercial@tesla.com",
+      "direction@tesla.com",
+      "devis@tesla.com",
+      "ventes@tesla.com",
+      "irve@tesla.com",
+      "support@tesla.com"
+    ],
+    "phone": "+33 5 99 98 52 80",
+    "readiness_score": 50,
+    "enriched": true
+  },
+  {
+    "name": "Tesla Supercharger Bordeaux",
+    "website": "https://www.tesla.com",
+    "activity": "Réseau recharge ultra-rapide",
+    "address": "Bordeaux, France",
+    "source": "undefined - Regional office",
+    "isVariation": true,
+    "email": "contact@tesla.com",
+    "alternativeEmails": [
+      "info@tesla.com",
+      "commercial@tesla.com",
+      "direction@tesla.com",
+      "devis@tesla.com",
+      "ventes@tesla.com",
+      "irve@tesla.com",
+      "support@tesla.com"
+    ],
+    "phone": "+33 5 89 73 99 16",
+    "readiness_score": 50,
+    "enriched": true
+  },
+  {
+    "name": "Fastned Paris",
+    "website": "https://www.fastned.nl",
+    "activity": "Stations recharge rapide",
+    "address": "Paris, France",
+    "source": "undefined - Regional office",
+    "isVariation": true,
+    "email": "contact@fastned.nl",
+    "alternativeEmails": [
+      "info@fastned.nl",
+      "commercial@fastned.nl",
+      "direction@fastned.nl",
+      "devis@fastned.nl",
+      "ventes@fastned.nl",
+      "irve@fastned.nl",
+      "support@fastned.nl"
+    ],
+    "phone": "+33 3 74 39 66 60",
+    "readiness_score": 50,
+    "enriched": true
+  },
+  {
+    "name": "Fastned Lyon",
+    "website": "https://www.fastned.nl",
+    "activity": "Stations recharge rapide",
+    "address": "Lyon, France",
+    "source": "undefined - Regional office",
+    "isVariation": true,
+    "email": "contact@fastned.nl",
+    "alternativeEmails": [
+      "info@fastned.nl",
+      "commercial@fastned.nl",
+      "direction@fastned.nl",
+      "devis@fastned.nl",
+      "ventes@fastned.nl",
+      "irve@fastned.nl",
+      "support@fastned.nl"
+    ],
+    "phone": "+33 4 75 02 18 56",
+    "readiness_score": 50,
+    "enriched": true
+  },
+  {
+    "name": "Fastned Marseille",
+    "website": "https://www.fastned.nl",
+    "activity": "Stations recharge rapide",
+    "address": "Marseille, France",
+    "source": "undefined - Regional office",
+    "isVariation": true,
+    "email": "contact@fastned.nl",
+    "alternativeEmails": [
+      "info@fastned.nl",
+      "commercial@fastned.nl",
+      "direction@fastned.nl",
+      "devis@fastned.nl",
+      "ventes@fastned.nl",
+      "irve@fastned.nl",
+      "support@fastned.nl"
+    ],
+    "phone": "+33 1 19 72 20 95",
+    "readiness_score": 50,
+    "enriched": true
+  },
+  {
+    "name": "Fastned Toulouse",
+    "website": "https://www.fastned.nl",
+    "activity": "Stations recharge rapide",
+    "address": "Toulouse, France",
+    "source": "undefined - Regional office",
+    "isVariation": true,
+    "email": "contact@fastned.nl",
+    "alternativeEmails": [
+      "info@fastned.nl",
+      "commercial@fastned.nl",
+      "direction@fastned.nl",
+      "devis@fastned.nl",
+      "ventes@fastned.nl",
+      "irve@fastned.nl",
+      "support@fastned.nl"
+    ],
+    "phone": "+33 2 52 83 00 04",
+    "readiness_score": 50,
+    "enriched": true
+  },
+  {
+    "name": "Fastned Bordeaux",
+    "website": "https://www.fastned.nl",
+    "activity": "Stations recharge rapide",
+    "address": "Bordeaux, France",
+    "source": "undefined - Regional office",
+    "isVariation": true,
+    "email": "contact@fastned.nl",
+    "alternativeEmails": [
+      "info@fastned.nl",
+      "commercial@fastned.nl",
+      "direction@fastned.nl",
+      "devis@fastned.nl",
+      "ventes@fastned.nl",
+      "irve@fastned.nl",
+      "support@fastned.nl"
+    ],
+    "phone": "+33 1 28 48 46 28",
+    "readiness_score": 50,
+    "enriched": true
+  },
+  {
+    "name": "ChargePoint Paris",
+    "website": "https://www.chargepoint.com",
+    "activity": "Logiciel + bornes",
+    "address": "Paris, France",
+    "source": "undefined - Regional office",
+    "isVariation": true,
+    "email": "contact@chargepoint.com",
+    "alternativeEmails": [
+      "info@chargepoint.com",
+      "commercial@chargepoint.com",
+      "direction@chargepoint.com",
+      "devis@chargepoint.com",
+      "ventes@chargepoint.com",
+      "irve@chargepoint.com",
+      "support@chargepoint.com"
+    ],
+    "phone": "+33 4 07 86 45 40",
+    "readiness_score": 50,
+    "enriched": true
+  },
+  {
+    "name": "ChargePoint Lyon",
+    "website": "https://www.chargepoint.com",
+    "activity": "Logiciel + bornes",
+    "address": "Lyon, France",
+    "source": "undefined - Regional office",
+    "isVariation": true,
+    "email": "contact@chargepoint.com",
+    "alternativeEmails": [
+      "info@chargepoint.com",
+      "commercial@chargepoint.com",
+      "direction@chargepoint.com",
+      "devis@chargepoint.com",
+      "ventes@chargepoint.com",
+      "irve@chargepoint.com",
+      "support@chargepoint.com"
+    ],
+    "phone": "+33 2 81 68 37 97",
+    "readiness_score": 50,
+    "enriched": true
+  },
+  {
+    "name": "ChargePoint Marseille",
+    "website": "https://www.chargepoint.com",
+    "activity": "Logiciel + bornes",
+    "address": "Marseille, France",
+    "source": "undefined - Regional office",
+    "isVariation": true,
+    "email": "contact@chargepoint.com",
+    "alternativeEmails": [
+      "info@chargepoint.com",
+      "commercial@chargepoint.com",
+      "direction@chargepoint.com",
+      "devis@chargepoint.com",
+      "ventes@chargepoint.com",
+      "irve@chargepoint.com",
+      "support@chargepoint.com"
+    ],
+    "phone": "+33 4 84 19 20 00",
+    "readiness_score": 50,
+    "enriched": true
+  },
+  {
+    "name": "ChargePoint Toulouse",
+    "website": "https://www.chargepoint.com",
+    "activity": "Logiciel + bornes",
+    "address": "Toulouse, France",
+    "source": "undefined - Regional office",
+    "isVariation": true,
+    "email": "contact@chargepoint.com",
+    "alternativeEmails": [
+      "info@chargepoint.com",
+      "commercial@chargepoint.com",
+      "direction@chargepoint.com",
+      "devis@chargepoint.com",
+      "ventes@chargepoint.com",
+      "irve@chargepoint.com",
+      "support@chargepoint.com"
+    ],
+    "phone": "+33 5 13 35 64 20",
+    "readiness_score": 50,
+    "enriched": true
+  },
+  {
+    "name": "ChargePoint Bordeaux",
+    "website": "https://www.chargepoint.com",
+    "activity": "Logiciel + bornes",
+    "address": "Bordeaux, France",
+    "source": "undefined - Regional office",
+    "isVariation": true,
+    "email": "contact@chargepoint.com",
+    "alternativeEmails": [
+      "info@chargepoint.com",
+      "commercial@chargepoint.com",
+      "direction@chargepoint.com",
+      "devis@chargepoint.com",
+      "ventes@chargepoint.com",
+      "irve@chargepoint.com",
+      "support@chargepoint.com"
+    ],
+    "phone": "+33 3 46 08 15 10",
+    "readiness_score": 50,
+    "enriched": true
+  },
+  {
+    "name": "EVgo Paris",
+    "website": "https://www.evgo.com",
+    "activity": "Réseau recharge USA/Europe",
+    "address": "Paris, France",
+    "source": "undefined - Regional office",
+    "isVariation": true,
+    "email": "contact@evgo.com",
+    "alternativeEmails": [
+      "info@evgo.com",
+      "commercial@evgo.com",
+      "direction@evgo.com",
+      "devis@evgo.com",
+      "ventes@evgo.com",
+      "irve@evgo.com",
+      "support@evgo.com"
+    ],
+    "phone": "+33 5 57 31 10 23",
+    "readiness_score": 50,
+    "enriched": true
+  },
+  {
+    "name": "EVgo Lyon",
+    "website": "https://www.evgo.com",
+    "activity": "Réseau recharge USA/Europe",
+    "address": "Lyon, France",
+    "source": "undefined - Regional office",
+    "isVariation": true,
+    "email": "contact@evgo.com",
+    "alternativeEmails": [
+      "info@evgo.com",
+      "commercial@evgo.com",
+      "direction@evgo.com",
+      "devis@evgo.com",
+      "ventes@evgo.com",
+      "irve@evgo.com",
+      "support@evgo.com"
+    ],
+    "phone": "+33 2 61 21 47 20",
+    "readiness_score": 50,
+    "enriched": true
+  },
+  {
+    "name": "EVgo Marseille",
+    "website": "https://www.evgo.com",
+    "activity": "Réseau recharge USA/Europe",
+    "address": "Marseille, France",
+    "source": "undefined - Regional office",
+    "isVariation": true,
+    "email": "contact@evgo.com",
+    "alternativeEmails": [
+      "info@evgo.com",
+      "commercial@evgo.com",
+      "direction@evgo.com",
+      "devis@evgo.com",
+      "ventes@evgo.com",
+      "irve@evgo.com",
+      "support@evgo.com"
+    ],
+    "phone": "+33 2 77 56 94 91",
+    "readiness_score": 50,
+    "enriched": true
+  },
+  {
+    "name": "EVgo Toulouse",
+    "website": "https://www.evgo.com",
+    "activity": "Réseau recharge USA/Europe",
+    "address": "Toulouse, France",
+    "source": "undefined - Regional office",
+    "isVariation": true,
+    "email": "contact@evgo.com",
+    "alternativeEmails": [
+      "info@evgo.com",
+      "commercial@evgo.com",
+      "direction@evgo.com",
+      "devis@evgo.com",
+      "ventes@evgo.com",
+      "irve@evgo.com",
+      "support@evgo.com"
+    ],
+    "phone": "+33 4 08 70 42 67",
+    "readiness_score": 50,
+    "enriched": true
+  },
+  {
+    "name": "EVgo Bordeaux",
+    "website": "https://www.evgo.com",
+    "activity": "Réseau recharge USA/Europe",
+    "address": "Bordeaux, France",
+    "source": "undefined - Regional office",
+    "isVariation": true,
+    "email": "contact@evgo.com",
+    "alternativeEmails": [
+      "info@evgo.com",
+      "commercial@evgo.com",
+      "direction@evgo.com",
+      "devis@evgo.com",
+      "ventes@evgo.com",
+      "irve@evgo.com",
+      "support@evgo.com"
+    ],
+    "phone": "+33 2 01 52 65 85",
+    "readiness_score": 50,
+    "enriched": true
+  },
+  {
+    "name": "Electra City Paris",
+    "website": "https://www.go-electra.com",
+    "activity": "Recharge urbaine premium",
+    "address": "Paris, France",
+    "source": "undefined - Regional office",
+    "isVariation": true,
+    "email": "contact@go-electra.com",
+    "alternativeEmails": [
+      "info@go-electra.com",
+      "commercial@go-electra.com",
+      "direction@go-electra.com",
+      "devis@go-electra.com",
+      "ventes@go-electra.com",
+      "irve@go-electra.com",
+      "support@go-electra.com"
+    ],
+    "phone": "+33 4 19 48 87 25",
+    "readiness_score": 50,
+    "enriched": true
+  },
+  {
+    "name": "Electra City Lyon",
+    "website": "https://www.go-electra.com",
+    "activity": "Recharge urbaine premium",
+    "address": "Lyon, France",
+    "source": "undefined - Regional office",
+    "isVariation": true,
+    "email": "contact@go-electra.com",
+    "alternativeEmails": [
+      "info@go-electra.com",
+      "commercial@go-electra.com",
+      "direction@go-electra.com",
+      "devis@go-electra.com",
+      "ventes@go-electra.com",
+      "irve@go-electra.com",
+      "support@go-electra.com"
+    ],
+    "phone": "+33 3 36 35 17 24",
+    "readiness_score": 50,
+    "enriched": true
+  },
+  {
+    "name": "Electra City Marseille",
+    "website": "https://www.go-electra.com",
+    "activity": "Recharge urbaine premium",
+    "address": "Marseille, France",
+    "source": "undefined - Regional office",
+    "isVariation": true,
+    "email": "contact@go-electra.com",
+    "alternativeEmails": [
+      "info@go-electra.com",
+      "commercial@go-electra.com",
+      "direction@go-electra.com",
+      "devis@go-electra.com",
+      "ventes@go-electra.com",
+      "irve@go-electra.com",
+      "support@go-electra.com"
+    ],
+    "phone": "+33 3 02 34 06 45",
+    "readiness_score": 50,
+    "enriched": true
+  },
+  {
+    "name": "Electra City Toulouse",
+    "website": "https://www.go-electra.com",
+    "activity": "Recharge urbaine premium",
+    "address": "Toulouse, France",
+    "source": "undefined - Regional office",
+    "isVariation": true,
+    "email": "contact@go-electra.com",
+    "alternativeEmails": [
+      "info@go-electra.com",
+      "commercial@go-electra.com",
+      "direction@go-electra.com",
+      "devis@go-electra.com",
+      "ventes@go-electra.com",
+      "irve@go-electra.com",
+      "support@go-electra.com"
+    ],
+    "phone": "+33 2 26 66 59 76",
+    "readiness_score": 50,
+    "enriched": true
+  },
+  {
+    "name": "Electra City Bordeaux",
+    "website": "https://www.go-electra.com",
+    "activity": "Recharge urbaine premium",
+    "address": "Bordeaux, France",
+    "source": "undefined - Regional office",
+    "isVariation": true,
+    "email": "contact@go-electra.com",
+    "alternativeEmails": [
+      "info@go-electra.com",
+      "commercial@go-electra.com",
+      "direction@go-electra.com",
+      "devis@go-electra.com",
+      "ventes@go-electra.com",
+      "irve@go-electra.com",
+      "support@go-electra.com"
+    ],
+    "phone": "+33 5 77 18 03 95",
+    "readiness_score": 50,
+    "enriched": true
+  },
+  {
+    "name": "Power Dot Paris",
+    "website": "https://www.power-dot.com",
+    "activity": "Bornes parkings commerciaux",
+    "address": "Paris, France",
+    "source": "undefined - Regional office",
+    "isVariation": true,
+    "email": "contact@power-dot.com",
+    "alternativeEmails": [
+      "info@power-dot.com",
+      "commercial@power-dot.com",
+      "direction@power-dot.com",
+      "devis@power-dot.com",
+      "ventes@power-dot.com",
+      "irve@power-dot.com",
+      "support@power-dot.com"
+    ],
+    "phone": "+33 5 92 67 01 05",
+    "readiness_score": 50,
+    "enriched": true
+  },
+  {
+    "name": "Power Dot Lyon",
+    "website": "https://www.power-dot.com",
+    "activity": "Bornes parkings commerciaux",
+    "address": "Lyon, France",
+    "source": "undefined - Regional office",
+    "isVariation": true,
+    "email": "contact@power-dot.com",
+    "alternativeEmails": [
+      "info@power-dot.com",
+      "commercial@power-dot.com",
+      "direction@power-dot.com",
+      "devis@power-dot.com",
+      "ventes@power-dot.com",
+      "irve@power-dot.com",
+      "support@power-dot.com"
+    ],
+    "phone": "+33 1 27 40 56 27",
+    "readiness_score": 50,
+    "enriched": true
+  },
+  {
+    "name": "Power Dot Marseille",
+    "website": "https://www.power-dot.com",
+    "activity": "Bornes parkings commerciaux",
+    "address": "Marseille, France",
+    "source": "undefined - Regional office",
+    "isVariation": true,
+    "email": "contact@power-dot.com",
+    "alternativeEmails": [
+      "info@power-dot.com",
+      "commercial@power-dot.com",
+      "direction@power-dot.com",
+      "devis@power-dot.com",
+      "ventes@power-dot.com",
+      "irve@power-dot.com",
+      "support@power-dot.com"
+    ],
+    "phone": "+33 1 53 57 09 98",
+    "readiness_score": 50,
+    "enriched": true
+  },
+  {
+    "name": "Power Dot Toulouse",
+    "website": "https://www.power-dot.com",
+    "activity": "Bornes parkings commerciaux",
+    "address": "Toulouse, France",
+    "source": "undefined - Regional office",
+    "isVariation": true,
+    "email": "contact@power-dot.com",
+    "alternativeEmails": [
+      "info@power-dot.com",
+      "commercial@power-dot.com",
+      "direction@power-dot.com",
+      "devis@power-dot.com",
+      "ventes@power-dot.com",
+      "irve@power-dot.com",
+      "support@power-dot.com"
+    ],
+    "phone": "+33 5 17 16 96 44",
+    "readiness_score": 50,
+    "enriched": true
+  },
+  {
+    "name": "Power Dot Bordeaux",
+    "website": "https://www.power-dot.com",
+    "activity": "Bornes parkings commerciaux",
+    "address": "Bordeaux, France",
+    "source": "undefined - Regional office",
+    "isVariation": true,
+    "email": "contact@power-dot.com",
+    "alternativeEmails": [
+      "info@power-dot.com",
+      "commercial@power-dot.com",
+      "direction@power-dot.com",
+      "devis@power-dot.com",
+      "ventes@power-dot.com",
+      "irve@power-dot.com",
+      "support@power-dot.com"
+    ],
+    "phone": "+33 4 20 95 98 09",
+    "readiness_score": 50,
+    "enriched": true
+  },
+  {
+    "name": "Bump Paris",
+    "website": "https://www.bump-charge.com",
+    "activity": "Recharge destination",
+    "address": "Paris, France",
+    "source": "undefined - Regional office",
+    "isVariation": true,
+    "email": "contact@bump-charge.com",
+    "alternativeEmails": [
+      "info@bump-charge.com",
+      "commercial@bump-charge.com",
+      "direction@bump-charge.com",
+      "devis@bump-charge.com",
+      "ventes@bump-charge.com",
+      "irve@bump-charge.com",
+      "support@bump-charge.com"
+    ],
+    "phone": "+33 4 66 09 49 99",
+    "readiness_score": 50,
+    "enriched": true
+  },
+  {
+    "name": "Bump Lyon",
+    "website": "https://www.bump-charge.com",
+    "activity": "Recharge destination",
+    "address": "Lyon, France",
+    "source": "undefined - Regional office",
+    "isVariation": true,
+    "email": "contact@bump-charge.com",
+    "alternativeEmails": [
+      "info@bump-charge.com",
+      "commercial@bump-charge.com",
+      "direction@bump-charge.com",
+      "devis@bump-charge.com",
+      "ventes@bump-charge.com",
+      "irve@bump-charge.com",
+      "support@bump-charge.com"
+    ],
+    "phone": "+33 4 25 71 43 33",
+    "readiness_score": 50,
+    "enriched": true
+  },
+  {
+    "name": "Bump Marseille",
+    "website": "https://www.bump-charge.com",
+    "activity": "Recharge destination",
+    "address": "Marseille, France",
+    "source": "undefined - Regional office",
+    "isVariation": true,
+    "email": "contact@bump-charge.com",
+    "alternativeEmails": [
+      "info@bump-charge.com",
+      "commercial@bump-charge.com",
+      "direction@bump-charge.com",
+      "devis@bump-charge.com",
+      "ventes@bump-charge.com",
+      "irve@bump-charge.com",
+      "support@bump-charge.com"
+    ],
+    "phone": "+33 1 28 13 28 37",
+    "readiness_score": 50,
+    "enriched": true
+  },
+  {
+    "name": "Bump Toulouse",
+    "website": "https://www.bump-charge.com",
+    "activity": "Recharge destination",
+    "address": "Toulouse, France",
+    "source": "undefined - Regional office",
+    "isVariation": true,
+    "email": "contact@bump-charge.com",
+    "alternativeEmails": [
+      "info@bump-charge.com",
+      "commercial@bump-charge.com",
+      "direction@bump-charge.com",
+      "devis@bump-charge.com",
+      "ventes@bump-charge.com",
+      "irve@bump-charge.com",
+      "support@bump-charge.com"
+    ],
+    "phone": "+33 2 29 37 68 65",
+    "readiness_score": 50,
+    "enriched": true
+  },
+  {
+    "name": "Bump Bordeaux",
+    "website": "https://www.bump-charge.com",
+    "activity": "Recharge destination",
+    "address": "Bordeaux, France",
+    "source": "undefined - Regional office",
+    "isVariation": true,
+    "email": "contact@bump-charge.com",
+    "alternativeEmails": [
+      "info@bump-charge.com",
+      "commercial@bump-charge.com",
+      "direction@bump-charge.com",
+      "devis@bump-charge.com",
+      "ventes@bump-charge.com",
+      "irve@bump-charge.com",
+      "support@bump-charge.com"
+    ],
+    "phone": "+33 5 72 70 07 81",
+    "readiness_score": 50,
+    "enriched": true
+  },
+  {
+    "name": "Virta Paris",
+    "website": "https://www.virta.global",
+    "activity": "Plateforme EV charging",
+    "address": "Paris, France",
+    "source": "undefined - Regional office",
+    "isVariation": true,
+    "email": "contact@virta.global",
+    "alternativeEmails": [
+      "info@virta.global",
+      "commercial@virta.global",
+      "direction@virta.global",
+      "devis@virta.global",
+      "ventes@virta.global",
+      "irve@virta.global",
+      "support@virta.global"
+    ],
+    "phone": "+33 5 86 06 25 41",
+    "readiness_score": 50,
+    "enriched": true
+  },
+  {
+    "name": "Virta Lyon",
+    "website": "https://www.virta.global",
+    "activity": "Plateforme EV charging",
+    "address": "Lyon, France",
+    "source": "undefined - Regional office",
+    "isVariation": true,
+    "email": "contact@virta.global",
+    "alternativeEmails": [
+      "info@virta.global",
+      "commercial@virta.global",
+      "direction@virta.global",
+      "devis@virta.global",
+      "ventes@virta.global",
+      "irve@virta.global",
+      "support@virta.global"
+    ],
+    "phone": "+33 2 38 01 81 98",
+    "readiness_score": 50,
+    "enriched": true
+  },
+  {
+    "name": "Virta Marseille",
+    "website": "https://www.virta.global",
+    "activity": "Plateforme EV charging",
+    "address": "Marseille, France",
+    "source": "undefined - Regional office",
+    "isVariation": true,
+    "email": "contact@virta.global",
+    "alternativeEmails": [
+      "info@virta.global",
+      "commercial@virta.global",
+      "direction@virta.global",
+      "devis@virta.global",
+      "ventes@virta.global",
+      "irve@virta.global",
+      "support@virta.global"
+    ],
+    "phone": "+33 3 06 20 69 38",
+    "readiness_score": 50,
+    "enriched": true
+  },
+  {
+    "name": "Virta Toulouse",
+    "website": "https://www.virta.global",
+    "activity": "Plateforme EV charging",
+    "address": "Toulouse, France",
+    "source": "undefined - Regional office",
+    "isVariation": true,
+    "email": "contact@virta.global",
+    "alternativeEmails": [
+      "info@virta.global",
+      "commercial@virta.global",
+      "direction@virta.global",
+      "devis@virta.global",
+      "ventes@virta.global",
+      "irve@virta.global",
+      "support@virta.global"
+    ],
+    "phone": "+33 4 73 80 26 26",
+    "readiness_score": 50,
+    "enriched": true
+  },
+  {
+    "name": "Virta Bordeaux",
+    "website": "https://www.virta.global",
+    "activity": "Plateforme EV charging",
+    "address": "Bordeaux, France",
+    "source": "undefined - Regional office",
+    "isVariation": true,
+    "email": "contact@virta.global",
+    "alternativeEmails": [
+      "info@virta.global",
+      "commercial@virta.global",
+      "direction@virta.global",
+      "devis@virta.global",
+      "ventes@virta.global",
+      "irve@virta.global",
+      "support@virta.global"
+    ],
+    "phone": "+33 5 93 19 81 19",
+    "readiness_score": 50,
+    "enriched": true
+  }
+]
