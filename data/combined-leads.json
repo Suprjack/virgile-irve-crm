@@ -1,0 +1,373 @@
+{
+  "companies": [
+    {
+      "name": "Electra",
+      "linkedin_url": "https://www.linkedin.com/company/electra-charge/",
+      "website": "https://www.go-electra.com",
+      "employees": 536,
+      "employees_linkedin": "201-500",
+      "location": "104, Rue de Richelieu, Paris, Île-de-France 75002, FR",
+      "sector": "Technology, Information and Internet",
+      "founded": 2020,
+      "company_type": "Privately Held",
+      "description": "Electra is a european charge point operator. Fast charging network across 9 countries. Member of French Tech Next 40. Partners: Vinci Autoroutes, Stellantis, G7, AccorInvest, Altarea, Indigo, Louvre Hotels Group, Delhaize Group.",
+      "linkedin_followers": 45385,
+      "key_metrics": {
+        "current_stations": 650,
+        "charging_points": 4000,
+        "countries": 9,
+        "target_charging_points": 15000,
+        "target_year": 2030
+      },
+      "specialties": [
+        "Mobilité électrique",
+        "Recharge électrique",
+        "Technologie",
+        "fast charging",
+        "innovation",
+        "ev",
+        "parking",
+        "flottes",
+        "recharge rapide"
+      ],
+      "contacts": [
+        {
+          "name": "Nicolas Cohen",
+          "linkedin_url": "https://fr.linkedin.com/in/nicolascohen",
+          "title": "Unknown (listed in top employees)",
+          "email_pattern": "nicolas.cohen@go-electra.com",
+          "email_confidence": "pattern-based",
+          "source": "LinkedIn employees section"
+        },
+        {
+          "name": "Laurent Chatelin",
+          "linkedin_url": "https://fr.linkedin.com/in/chatelin",
+          "title": "Unknown (listed in top employees)",
+          "email_pattern": "laurent.chatelin@go-electra.com",
+          "email_confidence": "pattern-based",
+          "source": "LinkedIn employees section"
+        },
+        {
+          "name": "Antoine Nuger",
+          "linkedin_url": "https://fr.linkedin.com/in/antoinenuger/en",
+          "title": "Unknown (listed in top employees)",
+          "email_pattern": "antoine.nuger@go-electra.com",
+          "email_confidence": "pattern-based",
+          "source": "LinkedIn employees section"
+        },
+        {
+          "name": "Bruno Raillard",
+          "linkedin_url": "https://fr.linkedin.com/in/brunoraillard",
+          "title": "Unknown (listed in top employees)",
+          "email_pattern": "bruno.raillard@go-electra.com",
+          "email_confidence": "pattern-based",
+          "source": "LinkedIn employees section"
+        }
+      ],
+      "phone": null,
+      "readiness_score": 90,
+      "notes": "Top-tier company, French Tech Next 40, massive expansion (15k charging points by 2030), major partnerships",
+      "scraped_at": "2026-02-07T06:36:30Z",
+      "verification_status": "real_linkedin_profile"
+    },
+    {
+      "name": "IZI by EDF",
+      "website": "https://izi-by-edf.fr",
+      "linkedin_url": "https://www.linkedin.com/company/izi-by-edf/",
+      "employees": "500-1000",
+      "location": "France métropolitaine",
+      "sector": "IRVE",
+      "description": "Filiale EDF - Solutions clé en main d'installation de bornes de recharge. Leader du marché français avec accompagnement personnalisé.",
+      "emails": [],
+      "quality": "high"
+    },
+    {
+      "name": "TotalEnergies Charge",
+      "website": "https://www.totalenergies.fr/particuliers/nos-offres/recharge-vehicule-electrique",
+      "linkedin_url": "https://www.linkedin.com/company/totalenergies/",
+      "employees": "100000+",
+      "location": "2 place Jean Millier, 92078 Paris La Défense",
+      "sector": "IRVE",
+      "description": "Groupe mondial d'énergie. Installateurs certifiés IRVE, packs adaptés, offre Charge'heures avec tarifs préférentiels.",
+      "emails": [
+        "patrick.pouyanne@totalenergies.com"
+      ],
+      "quality": "high"
+    },
+    {
+      "name": "ENGIE Home Services",
+      "website": "https://www.engie-homeservices.fr/",
+      "linkedin_url": "https://www.linkedin.com/company/engie-home-services/",
+      "employees": "5000-10000",
+      "location": "France métropolitaine",
+      "sector": "IRVE",
+      "description": "Réseau d'électriciens certifiés IRVE. Solutions résidentielles et professionnelles axées sur efficacité énergétique.",
+      "emails": [],
+      "quality": "medium"
+    },
+    {
+      "name": "ChargeGuru",
+      "website": "https://chargeguru.com/fr/",
+      "linkedin_url": "https://www.linkedin.com/company/chargeguru/",
+      "employees": "50-200",
+      "location": "France",
+      "sector": "IRVE",
+      "description": "Entreprise française spécialisée installation bornes. Accompagnement A à Z, réseau d'électriciens qualifiés IRVE.",
+      "emails": [],
+      "quality": "medium"
+    },
+    {
+      "name": "Beev",
+      "website": "https://www.beev.co/",
+      "linkedin_url": "https://www.linkedin.com/company/beev-co/",
+      "employees": "50-100",
+      "location": "France métropolitaine",
+      "sector": "IRVE",
+      "description": "Certifié IRVE. Large choix de bornes, services sur mesure, installation rapide et conforme, contrats de maintenance.",
+      "emails": [],
+      "quality": "medium"
+    },
+    {
+      "name": "Zeplug",
+      "website": "https://www.zeplug.com/",
+      "linkedin_url": "https://www.linkedin.com/company/zeplug/",
+      "employees": "100-500",
+      "location": "France",
+      "sector": "IRVE",
+      "description": "Solution de recharge n°1 des copropriétés en France. Plus de 2 millions de foyers équipés. Dès 4,90€/mois.",
+      "emails": [],
+      "quality": "medium"
+    },
+    {
+      "name": "Greenspot",
+      "website": "https://www.greenspot.fr/",
+      "linkedin_url": "https://www.linkedin.com/company/relais-greenspot/",
+      "employees": "20-50",
+      "location": "Sud de la France (régional)",
+      "sector": "IRVE",
+      "description": "Plus de 1000 points de charge installés en France. Installation, maintenance et supervision de bornes IRVE.",
+      "emails": [],
+      "quality": "medium"
+    },
+    {
+      "name": "TSG Solutions (ex-Tokheim)",
+      "website": "https://www.tsg-solutions.com/fr/",
+      "linkedin_url": "https://www.linkedin.com/company/tsg-solutions/",
+      "employees": "1000-5000",
+      "location": "Europe et Afrique",
+      "sector": "IRVE",
+      "description": "Plus grand réseau de vente et service en Europe/Afrique. Conception, installation et maintenance tous types d'infrastructures.",
+      "emails": [],
+      "quality": "high"
+    },
+    {
+      "name": "ISIOHM",
+      "website": "https://isiohm.fr/",
+      "linkedin_url": "https://www.linkedin.com/company/isiohm/",
+      "employees": "50-100",
+      "location": "France",
+      "sector": "IRVE",
+      "description": "350+ installateurs partenaires certifiés IRVE en France. Devis gratuit, aides déduites, installation professionnelle.",
+      "emails": [],
+      "quality": "high"
+    },
+    {
+      "name": "Zephyre",
+      "website": "https://www.zephyre.fr/",
+      "linkedin_url": "https://www.linkedin.com/company/zephyre/",
+      "employees": "20-50",
+      "location": "France",
+      "sector": "IRVE",
+      "description": "Installateur sur-mesure de bornes de recharge depuis 5+ ans. Application mobile pour suivi consommation.",
+      "emails": [],
+      "quality": "high"
+    },
+    {
+      "name": "STEL Energies",
+      "website": "https://stel-energies.fr/",
+      "linkedin_url": "https://www.linkedin.com/company/stel-energies/",
+      "employees": "20-100",
+      "location": "France",
+      "sector": "IRVE",
+      "description": "Opérateur de mobilité électrique. Solutions de recharge sur mesure et clé en main pour entreprises, tertiaire, transport.",
+      "emails": [],
+      "quality": "medium"
+    },
+    {
+      "name": "Freshmile",
+      "website": "https://www.freshmile.com/",
+      "linkedin_url": "https://www.linkedin.com/company/freshmile/",
+      "employees": "50-200",
+      "location": "France",
+      "sector": "IRVE",
+      "description": "Catalogue de 300+ modèles de bornes certifiés. Exploitation à distance, support conducteurs, refacturation automatisée.",
+      "emails": [],
+      "quality": "medium"
+    },
+    {
+      "name": "Driveco",
+      "website": "https://driveco.com/",
+      "linkedin_url": "https://www.linkedin.com/company/driveco/",
+      "employees": "100-500",
+      "location": "France",
+      "sector": "IRVE",
+      "description": "Pionnier français de la recharge VE. 10000+ points de charge en France. Partenariat Carrefour Énergies (100M€ investis).",
+      "emails": [],
+      "quality": "high"
+    },
+    {
+      "name": "EVBox",
+      "website": "https://evbox.com/fr-fr/",
+      "linkedin_url": "https://www.linkedin.com/company/evbox/",
+      "employees": "500-1000",
+      "location": "Pays-Bas (siège) / France",
+      "sector": "IRVE",
+      "description": "Solutions complètes de recharge VE. Partenariats avec Monaco SMEG, Fastned, Bump. Fabrication française.",
+      "emails": [],
+      "quality": "medium"
+    },
+    {
+      "name": "Zaptec France",
+      "website": "https://www.zaptec.com/fr/",
+      "linkedin_url": "https://www.linkedin.com/company/zaptec/",
+      "employees": "200-500",
+      "location": "Norvège (siège) / France",
+      "sector": "IRVE",
+      "description": "De 1 à 1000 bornes. Installation certifiée IRVE, dispositif garanti 5 ans, équilibrage de charge intelligent.",
+      "emails": [],
+      "quality": "medium"
+    },
+    {
+      "name": "Virta Global",
+      "website": "https://www.virta.global/fr/",
+      "linkedin_url": "https://www.linkedin.com/company/virta-ltd/",
+      "employees": "200-500",
+      "location": "Finlande (siège) / France",
+      "sector": "IRVE",
+      "description": "Guide des bornes DC. Bornes rapides personnalisables des meilleurs fabricants du marché.",
+      "emails": [],
+      "quality": "medium"
+    },
+    {
+      "name": "Smartto",
+      "website": "https://www.smartto.fr/",
+      "linkedin_url": "https://www.linkedin.com/company/smartto-fr/",
+      "employees": "20-50",
+      "location": "France",
+      "sector": "IRVE",
+      "description": "Spécialiste solutions complètes: énergie renouvelable, installations électriques. À partir de 1200€ installation résidentielle.",
+      "emails": [],
+      "quality": "medium"
+    },
+    {
+      "name": "Bouygues Energies & Services",
+      "website": "https://www.bouygues-es.fr/",
+      "linkedin_url": "https://www.linkedin.com/company/bouygues-energies-&-services/",
+      "employees": "10000+",
+      "location": "13 rue des Frères Lumière, 78370 Plaisir",
+      "sector": "IRVE",
+      "description": "Grand groupe BTP avec activité IRVE. Installation de bornes pour collectivités et grandes entreprises.",
+      "emails": [],
+      "quality": "medium"
+    },
+    {
+      "name": "Eiffage Energie Systèmes",
+      "website": "https://www.eiffage-energie-systemes.com/",
+      "linkedin_url": "https://www.linkedin.com/company/eiffage-energie-systemes/",
+      "employees": "10000+",
+      "location": "France",
+      "sector": "IRVE",
+      "description": "Branche énergie du groupe Eiffage. Installation IRVE pour infrastructures publiques et privées.",
+      "emails": [],
+      "quality": "medium"
+    },
+    {
+      "name": "Cegelec (VINCI Energies)",
+      "website": "https://www.vinci-energies.com/",
+      "linkedin_url": "https://www.linkedin.com/company/cegelec/",
+      "employees": "10000+",
+      "location": "France",
+      "sector": "IRVE",
+      "description": "Filiale VINCI Energies spécialisée installations électriques. Déploiement bornes pour réseaux publics et privés.",
+      "emails": [],
+      "quality": "medium"
+    },
+    {
+      "name": "ChargePoint",
+      "website": "https://www.chargepoint.com/fr-fr/",
+      "linkedin_url": "https://www.linkedin.com/company/chargepoint/",
+      "employees": "1000-5000",
+      "location": "USA (siège) / Europe",
+      "sector": "IRVE",
+      "description": "Plus grand réseau mondial de bornes VE. Fabricant de ses propres bornes, réseau électriciens qualifiés IRVE.",
+      "emails": [],
+      "quality": "medium"
+    },
+    {
+      "name": "Solutions 30 EURO ENERGY",
+      "website": "https://www.solutions30.com/",
+      "linkedin_url": "https://www.linkedin.com/company/solutions30/",
+      "employees": "5000+",
+      "location": "11 Rue des Hautes Patures, 92000 Nanterre (IDF)",
+      "sector": "IRVE",
+      "description": "Installateur référencé Advenir avec présence nationale (IDF, Haute-Saône, etc.). Services techniques terrain.",
+      "emails": [],
+      "quality": "medium"
+    },
+    {
+      "name": "Sogetrel",
+      "website": "https://www.sogetrel.fr/",
+      "linkedin_url": "https://www.linkedin.com/company/sogetrel/",
+      "employees": "2000-5000",
+      "location": "Multiple (Anglet, Montpellier, Six-Fours, etc.)",
+      "sector": "IRVE",
+      "description": "Présence multi-sites (Anglet, Montpellier, Six-Fours). Installateur référencé Advenir pour bornes IRVE.",
+      "emails": [],
+      "quality": "medium"
+    },
+    {
+      "name": "CITEOS (Vinci)",
+      "website": "https://www.citeos.fr/",
+      "linkedin_url": "https://www.linkedin.com/company/citeos/",
+      "employees": "2000-5000",
+      "location": "Rue du 8 Mai 1945, 73000 Barberaz (Chambéry)",
+      "sector": "IRVE",
+      "description": "Marque VINCI Energies spécialisée éclairage public et smart city. Déploie infrastructures IRVE pour villes.",
+      "emails": [],
+      "quality": "medium"
+    },
+    {
+      "name": "E-TOTEM",
+      "website": "https://www.e-totem.com/",
+      "linkedin_url": "https://www.linkedin.com/company/e-totem/",
+      "employees": "20-100",
+      "location": "2 Rue Lavoisier, Aytré",
+      "sector": "IRVE",
+      "description": "Fabricant français de bornes de recharge. Agences régionales (Aytré, etc.). Référencé Advenir.",
+      "emails": [],
+      "quality": "medium"
+    },
+    {
+      "name": "Bornetik",
+      "website": null,
+      "linkedin_url": null,
+      "employees": "10-50",
+      "location": "5 chemin des rondes des Tambouris",
+      "sector": "IRVE",
+      "description": "Installateur IRVE référencé Advenir. Installation de bornes pour particuliers et entreprises.",
+      "emails": [],
+      "quality": "low"
+    },
+    {
+      "name": "NEXTENEO",
+      "website": null,
+      "linkedin_url": null,
+      "employees": "10-50",
+      "location": "2A rue du pré faucon",
+      "sector": "IRVE",
+      "description": "Installateur IRVE référencé Advenir. Solutions de recharge électrique.",
+      "emails": [],
+      "quality": "low"
+    }
+  ]
+}

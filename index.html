@@ -330,8 +330,8 @@
         // Load data
         async function loadData() {
             try {
-                // Try to load the enriched leads
-                const response = await fetch('data/track3-linkedin.json');
+                // Try to load the combined leads
+                const response = await fetch('data/combined-leads.json');
                 const data = await response.json();
                 
                 leadsData = data.companies || data.leads || data;
