@@ -1,0 +1,81 @@
+{
+  "scraping_session": {
+    "date": "2026-02-07T06:36:00Z",
+    "agent": "OpusLibre (Claude Sonnet 4.5)",
+    "method": "Browser automation (OpenClaw sandbox-browser, CDP)",
+    "status": "in_progress",
+    "target": "10 IRVE companies, 30-50 executive contacts"
+  },
+  "companies": [
+    {
+      "name": "Electra",
+      "linkedin_url": "https://www.linkedin.com/company/electra-charge/",
+      "website": "https://www.go-electra.com",
+      "employees": 536,
+      "employees_linkedin": "201-500",
+      "location": "104, Rue de Richelieu, Paris, Île-de-France 75002, FR",
+      "sector": "Technology, Information and Internet",
+      "founded": 2020,
+      "company_type": "Privately Held",
+      "description": "Electra is a european charge point operator. Fast charging network across 9 countries. Member of French Tech Next 40. Partners: Vinci Autoroutes, Stellantis, G7, AccorInvest, Altarea, Indigo, Louvre Hotels Group, Delhaize Group.",
+      "linkedin_followers": 45385,
+      "key_metrics": {
+        "current_stations": 650,
+        "charging_points": 4000,
+        "countries": 9,
+        "target_charging_points": 15000,
+        "target_year": 2030
+      },
+      "specialties": [
+        "Mobilité électrique",
+        "Recharge électrique",
+        "Technologie",
+        "fast charging",
+        "innovation",
+        "ev",
+        "parking",
+        "flottes",
+        "recharge rapide"
+      ],
+      "contacts": [
+        {
+          "name": "Nicolas Cohen",
+          "linkedin_url": "https://fr.linkedin.com/in/nicolascohen",
+          "title": "Unknown (listed in top employees)",
+          "email_pattern": "nicolas.cohen@go-electra.com",
+          "email_confidence": "pattern-based",
+          "source": "LinkedIn employees section"
+        },
+        {
+          "name": "Laurent Chatelin",
+          "linkedin_url": "https://fr.linkedin.com/in/chatelin",
+          "title": "Unknown (listed in top employees)",
+          "email_pattern": "laurent.chatelin@go-electra.com",
+          "email_confidence": "pattern-based",
+          "source": "LinkedIn employees section"
+        },
+        {
+          "name": "Antoine Nuger",
+          "linkedin_url": "https://fr.linkedin.com/in/antoinenuger/en",
+          "title": "Unknown (listed in top employees)",
+          "email_pattern": "antoine.nuger@go-electra.com",
+          "email_confidence": "pattern-based",
+          "source": "LinkedIn employees section"
+        },
+        {
+          "name": "Bruno Raillard",
+          "linkedin_url": "https://fr.linkedin.com/in/brunoraillard",
+          "title": "Unknown (listed in top employees)",
+          "email_pattern": "bruno.raillard@go-electra.com",
+          "email_confidence": "pattern-based",
+          "source": "LinkedIn employees section"
+        }
+      ],
+      "phone": null,
+      "readiness_score": 90,
+      "notes": "Top-tier company, French Tech Next 40, massive expansion (15k charging points by 2030), major partnerships",
+      "scraped_at": "2026-02-07T06:36:30Z",
+      "verification_status": "real_linkedin_profile"
+    }
+  ]
+}
